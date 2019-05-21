@@ -1,0 +1,10 @@
+project:
+  local:
+    hostname: local.feltonsite.com
+    protocol: http
+  machine_name: feltonsite
+  human_name: feltonsite
+drush:
+  aliases:
+    local: self
+    remote: feltonsite.local

@@ -1,0 +1,10 @@
+project:
+  local:
+    hostname: local.quinn.com
+    protocol: http
+  machine_name: quinn
+  human_name: quinn
+drush:
+  aliases:
+    local: self
+    remote: quinn.local

@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.bruins19.com
+    protocol: http
+  machine_name: bruins19
+drush:
+  aliases:
+    local: self
+    remote: bruins19.test
